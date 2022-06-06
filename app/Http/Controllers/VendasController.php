@@ -18,6 +18,6 @@ class VendasController extends Controller
 
     public function vendas(){
 
-        return 'hello world';
+        return env('API_URL');
     }
 }
