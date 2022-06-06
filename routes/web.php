@@ -21,4 +21,5 @@ $router->get('/teste', function () use ($router) {
     return 'Hello World';
 });
 
-$router->get('/teste2', 'VendasController@vendas');
+$router->get('/vendas', 'VendasController@vendas');
+$router->get('/parcelas', 'VendasController@parcelasVendas');
